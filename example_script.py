@@ -14,9 +14,4 @@ parameters = {
 }
 task.connect(parameters)
 
-config_file_yaml = task.connect_configuration(
-    name="yaml file",
-    configuration='config.yaml'
-)
-
 print(args.lr, args.epochs, parameters)
